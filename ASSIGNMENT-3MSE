@@ -1,0 +1,64 @@
+	                                            	ASSIGNMENT - 3
+
+
+CONTEXT AWARE COMPUTING(EXAMPLE):-
+
+Satnav(satellite navigation) is an example of context aware routing because  of the following reason:
+In a Satellite Navigation System (SatNav), the current location is the primary contextual parameter that is used to automatically adjust the visualization (e.g. map, arrows, directions…) to the user’s current location. However, looking at current commercial systems, much more context information is used and much of visualization has been changed. In addition to the current GPS position, contextual parameters may include the time of day, light conditions, the traffic situation on the calculated route or the user’s preferred places. Beyond the visualization and whether or not to switch on the backlight, the calculated route can be influenced by context, e.g. to avoid potentially busy streets at that time of day.
+It satisfies the basic requirement of a context aware system i.e  it is aware of its environment and the context of its use.
+Another  few  examples  of context aware computing  are:  
+(a) A tablet computer switching the orientation of the screen 
+(b) Maps orienting themselves with the user’s current  location/orientation.
+
+
+
+DIFFERENCE BETWEEN MOBILE AND CLOUD COMPUTING:-
+
+Cloud computing,  allows you to store your files and folders in a “cloud” area on the Internet, allowing you access to all of your files and folders wherever you are in the world – but you do need a physical device with Internet access to access it.
+In cloud computing, the word cloud (also phrased as "the cloud") is used as a metaphor for "the Internet," so the phrase cloud computing means "a type of Internet-based computing," where different services -- such as servers, storage and applications -- are delivered to an organization's computers and devices through the Internet.
+Cloud computing is comparable to grid computing, a type of computing where unused processing cycles of all computers in a network are harnesses to solve problems too intensive for any stand-alone machine.
+
+The goal of cloud computing is to apply traditional supercomputing, or high-performance computing power, normally used by military and research facilities, to perform tens of trillions of computations per second, in consumer-oriented applications such as financial portfolios, to deliver personalized information, to provide data storage or to power large, immersive computer games.
+To do this, cloud computing uses networks of large groups of servers typically running low-cost consumer PC technology with specialized connections to spread data-processing chores across them. This shared IT infrastructure contains large pools of systems that are linked together. Often, virtualizationtechniques are used to maximize the power of cloud computing.
+Clients for cloud computing are are computers.
+
+WHILE
+ 
+Mobile computing is taking a physical device with you. This could be a laptop or a mobile phone or some device which enables you to telework – working wherever you go because of the small size of the device you’re using. 
+Mobile apps may use the cloud for both app development as well as hosting.
+Mobile computing is human computer interaction  by which a computer  is expected to be transported during normal usage. Mobile computing involves mobile communication , mobile hardware, and mobile software. Communication issues include ad hoc and infrastructure networks as well as communication properties ,protocols  , data formats and concrete technologies. Hardware includes mobile devices  or device components. Mobile software deals with the characteristics and requirements of mobile applications.
+Clients for mobile computing are cell phones.
+
+DALVIK VIRTUAL MACHINE INSTRUCTIONS:-
+
+
+1)ADDITION
+SYNTAX- 'add'  'data type'   'result    variable',arg1,arg2
+example:  add- int d0,s0,s1
+
+2)  MOVE
+example:move-wide/from16 vAA, vBBBB
+where
+"move" is the base opcode, indicating the base operation (move a register's value).
+"wide" is the name suffix, indicating that it operates on wide (64 bit) data.
+"from16" is the opcode suffix, indicating a variant that has a 16-bit register reference as a source.
+"vAA" is the destination register (implied by the operation; again, the rule is that destination arguments always come first), which must be in the range v0 – v255.
+"vBBBB" is the source register, which must be in the range v0 – v65535.
+
+3)THROW
+Example : throw vx
+Throws an exception object. The reference of the exception object is     in vx.
+
+4) Remainder(rem)
+ Syntax:   rem-  data type arg1,arg2,arg3
+ example- rem- int vx,vy,vz
+ Calculates vy % vz and puts the result into vx.
+
+5)shl
+Syntax: shl- data type arg1,arg2,arg3.......
+example: shl-int vx, vy, vz
+Shift vy left by the positions specified by vz and store the result into    vx.
+   
+
+
+
